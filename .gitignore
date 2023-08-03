@@ -6,7 +6,7 @@ target/
 devenv
 *.log*
 *.iml
-.idea/
+#.idea/
 *.versionsBackup
 !NOTICE-BIN
 !LICENSE-BIN
