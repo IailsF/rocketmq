@@ -74,7 +74,7 @@ public abstract class RebalanceImpl {
 
     // 获取topic的所有MessageQueue，然后调用rebalanceByTopic
     // 从broker获取这个tpoic同consumerGroup的所有consumer
-    // 然后对这些consumer和MessageQueue进行排序，然后按顺序均分MessageQueue给这些consumer
+    // 然后对这些consumer和MessageQueue进行排序，然后按顺序均分(默认策略AllocateMessageQueueAveragely)MessageQueue给这些consumer
     // 一个MessageQueue只会分配给一个consumer
     // 然后再调用updateProcessQueueTableInRebalance更新consumer所消费的MessageQueue并为每个MessageQueue生成PullRequest
     private void rebalanceByTopic(final String topic, final boolean isOrder) {
