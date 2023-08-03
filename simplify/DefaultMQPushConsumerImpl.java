@@ -45,6 +45,7 @@ public class DefaultMQPushConsumerImpl implements MQConsumerInner {
         this.mQClientFactory.rebalanceImmediately();
     }
 
+    // 这里执行pullRequest，会先进行流量控制，然后调用PullAPIWrapper#pullKernelImpl
     public void pullMessage(final PullRequest pullRequest) {
         final ProcessQueue processQueue = pullRequest.getProcessQueue();
         if (processQueue.isDropped()) {

@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d17122-c441-4fc8-952f-aca3b669e350" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/simplify/home/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distribution/conf/broker.conf" beforeDir="false" afterPath="$PROJECT_DIR$/simplify/home/conf/broker.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distribution/conf/logback_broker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simplify/home/conf/logback_broker.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distribution/conf/logback_namesrv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simplify/home/conf/logback_namesrv.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/org/apache/rocketmq/example/simple/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/org/apache/rocketmq/example/simple/Producer.java" afterDir="false" />
-    </list>
+    <list default="true" id="22d17122-c441-4fc8-952f-aca3b669e350" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -267,7 +260,7 @@
       <workItem from="1690787435212" duration="14282000" />
       <workItem from="1690869707854" duration="30245000" />
       <workItem from="1691029984256" duration="127000" />
-      <workItem from="1691030122686" duration="4668000" />
+      <workItem from="1691030122686" duration="6532000" />
     </task>
     <servers />
   </component>
